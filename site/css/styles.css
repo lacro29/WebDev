@@ -1,0 +1,38 @@
+body {
+    background-color: crimson;
+}
+div.makeMeBlue p {
+    color: blue;
+}
+
+a:link, a:visited {
+    background-color: transparent;
+    color: black;
+    font: Noto Serif;
+}
+
+#bgimg {
+    background-image: url("https://www.google.com/logos/fnbx/westminster_dog_show/westminster_kp_dm.gif");
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    margin: 30px;
+    Position: absolute;
+    Top: 20px;
+    right: 20px;
+}
+.container-fluid {
+    border: solid;
+    border-width: 3px;
+    width: 50%;
+    background-color: grey;
+    margin: 30px;
+
+}
+
+table, th, td {
+    border: solid;
+}
+* { 
+    margin: 5px;
+}
