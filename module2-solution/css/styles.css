@@ -1,0 +1,56 @@
+head, body {
+	font-family: copperplate;
+}
+header {
+	margin: 10px;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+	#box, #box2, #box3 {
+		border: solid black;
+		background-color: grey;
+		width: 25%;
+		margin: 10px;
+		box-sizing: border-box;
+		float: left;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#box, #box2 {
+		float: left;
+		width: 40%;
+		text-align: center;
+	}
+	#box3 {
+		float: left;
+		width: 85%;
+		text-align: center;
+	}
+}
+@media (max-width: 767px) {
+	#box, #box2, #box3 {
+		width: 90%;
+		margin: 20px;
+		box-sizing: border-box;
+		clear: left;
+	}
+}
+h1 {
+	position: relative;
+	float: right;
+	border: solid black;
+	margin-top: 0px;
+	margin-left: 100%;
+	width: 105px;
+
+}
+#box > h1 {
+	background-color: red;
+}
+#box2 > h1 {
+	background-color: yellow;
+}
+#box3 > h1 {
+	background-color: lightblue;
+}
