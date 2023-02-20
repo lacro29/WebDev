@@ -1,0 +1,29 @@
+#header-nav {
+  background-color: #61122f;
+  border-radius: 0;
+  border: 0;
+  height: 55px;
+}
+
+h1 {
+	margin: 0px;
+}
+
+#nav-list {
+	text-align: center;
+
+}
+
+p {
+	background-color: gray;
+	color: white;
+	height: 1000px;
+}
+
+#collapsable-nav {
+	background-color: #61122f;
+}
+
+body {
+	background-color: whitesmoke;
+}
